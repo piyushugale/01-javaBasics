@@ -32,8 +32,10 @@ spring.profiles.active=dev
 
 CommandLine:
 How you run it:
- To run as PROD: java -jar app.jar --spring.profiles.active=prod
- To run as DEV: java -jar app.jar --spring.profiles.active=dev
+ To run as PROD : java -jar app.jar --spring.profiles.active=prod
+ To run as DEV  : java -jar app.jar --spring.profiles.active=dev
+
+How you isolate env level deployments? --> using Spring profiles + Terraform Workspaces
 
 */
 
